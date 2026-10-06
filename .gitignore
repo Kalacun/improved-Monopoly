@@ -10,12 +10,14 @@ playwright-report/
 .env
 .env.*
 !.env.example
+release/*/
+!release/*.zip
+!release/*.zip.sha256
+.release-cache/
 *.pem
 *.key
 *.p12
 *.pfx
-release/
-.release-cache/
 *.log
 Thumbs.db
 .vscode/
