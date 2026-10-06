@@ -1,0 +1,55 @@
+{
+  "name": "estate-exchange",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "cross-env NODE_ENV=production tsx server/index.ts",
+    "test": "vitest run",
+    "check": "tsc --noEmit",
+    "test:network": "tsx tests/network.ts",
+    "models": "tsx scripts/export-models.ts",
+    "host": "npm run build && tsx scripts/host.ts",
+    "host:named": "npm run build && tsx scripts/host.ts --named",
+    "test:party": "tsx tests/party.ts",
+    "package": "npm run build && node scripts/package.mjs",
+    "release:check": "npm run build && npm test && npm run test:network && npm run test:party"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/libre-caslon-display": "^5.3.0",
+    "@magenta/music": "1.23.1",
+    "@tensorflow/tfjs": "2.8.6",
+    "express": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "three": "^0.180.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.5.2",
+    "@types/qrcode": "^1.5.6",
+    "@types/three": "^0.180.0",
+    "@types/ws": "^8.18.1",
+    "adm-zip": "0.6.1",
+    "cross-env": "^10.1.0",
+    "esbuild": "0.28.2",
+    "prettier": "^3.9.8",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7",
+    "vitest": "^4.1.11"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "overrides": {
+    "protobufjs": "^7.6.3",
+    "static-eval": "^2.1.1",
+    "quote-stream": "^1.0.2",
+    "minimist": "^1.2.8"
+  },
+  "license": "MIT"
+}

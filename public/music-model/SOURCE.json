@@ -1,0 +1,26 @@
+{
+  "model": "Magenta chord_pitches_improv",
+  "source": "https://storage.googleapis.com/magentadata/js/checkpoints/music_rnn/chord_pitches_improv/",
+  "files": [
+    {
+      "file": "group1-shard1of2",
+      "sha256": "c360ed7ddd966979509852b79530027bc8de1805644286f556f6a8e7a4edcc44",
+      "bytes": 4194304
+    },
+    {
+      "file": "weights_manifest.json",
+      "sha256": "c235ba9f70255d672cc2ce1b3f33196f40d7cb9ad52056a907712f5d6c6086c9",
+      "bytes": 817
+    },
+    {
+      "file": "config.json",
+      "sha256": "d94dbaf436fddaea5648f79361fa8096b173444b76d1db12ee799b3be8806267",
+      "bytes": 170
+    },
+    {
+      "file": "group1-shard2of2",
+      "sha256": "0d92b23e3050a82521a8ed408ac6188d7a32d8ed61b095f80f5829a2d4872857",
+      "bytes": 1407128
+    }
+  ]
+}

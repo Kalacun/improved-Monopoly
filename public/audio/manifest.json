@@ -1,0 +1,74 @@
+[
+  {
+    "file": "dice-throw-1.wav",
+    "pack": "casino",
+    "original": "Audio/dice-throw-1.ogg",
+    "sha256": "c273c49e8dcd2f990d7cbf1a7c19e83f47d144b500f5b488f13b317c5e5122c3"
+  },
+  {
+    "file": "dice-throw-2.wav",
+    "pack": "casino",
+    "original": "Audio/dice-throw-2.ogg",
+    "sha256": "7de3fc91ae46538a350e7d2da41c1a2bf23639629330c74deb96345d0031ba89"
+  },
+  {
+    "file": "card-slide-1.wav",
+    "pack": "casino",
+    "original": "Audio/card-slide-1.ogg",
+    "sha256": "f414db4f375f159117c7840948a4e8971b15bc081bf7d8cc42b1daae53bbc045"
+  },
+  {
+    "file": "chips-stack-1.wav",
+    "pack": "casino",
+    "original": "Audio/chips-stack-1.ogg",
+    "sha256": "0137f41f73da5e722eeb445e6225e098e8038931f132ae9ce1c78408425112af"
+  },
+  {
+    "file": "impactWood_light_000.wav",
+    "pack": "impact",
+    "original": "Audio/impactWood_light_000.ogg",
+    "sha256": "0a934d3a897512259ace6b48a3ea360e53d120f40897c0f433576228554f179b"
+  },
+  {
+    "file": "impactWood_light_001.wav",
+    "pack": "impact",
+    "original": "Audio/impactWood_light_001.ogg",
+    "sha256": "86ebffb4be528726feb03a77128b094b5eb9459b1da810c9827dfc0ecc90a2e9"
+  },
+  {
+    "file": "impactWood_medium_000.wav",
+    "pack": "impact",
+    "original": "Audio/impactWood_medium_000.ogg",
+    "sha256": "e4d8eb2f6e1babd2cdbecde3684303473aab42e93d3a87e5e675477301e25561"
+  },
+  {
+    "file": "impactSoft_medium_000.wav",
+    "pack": "impact",
+    "original": "Audio/impactSoft_medium_000.ogg",
+    "sha256": "248acf2acf38cce7b22e91ca704aa0ce102b7d3cba905a7975eae370266411e1"
+  },
+  {
+    "file": "impactMetal_medium_000.wav",
+    "pack": "impact",
+    "original": "Audio/impactMetal_medium_000.ogg",
+    "sha256": "95df705c09cb86bbf9ce2ee0ed8653dfee7e63a96c6fea7bc77fc104e8e0dfd7"
+  },
+  {
+    "file": "handleCoins.wav",
+    "pack": "rpg",
+    "original": "Audio/handleCoins.ogg",
+    "sha256": "ffcb0d7d21781742cf5828b6b89e72f6715e3fa7070223829adcdacb95d87424"
+  },
+  {
+    "file": "handleCoins2.wav",
+    "pack": "rpg",
+    "original": "Audio/handleCoins2.ogg",
+    "sha256": "0529763f1fa3e6be481f6e48074a1ec00f8bc75be044798da73c256a165f7c0c"
+  },
+  {
+    "file": "cloth1.wav",
+    "pack": "rpg",
+    "original": "Audio/cloth1.ogg",
+    "sha256": "bbde1ac8becf6988e2216b35361955ce1ff64fca18eb26c9ee639b3ee5619919"
+  }
+]

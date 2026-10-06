@@ -1,0 +1,38 @@
+name: Build downloadable game packages
+on:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run release:check
+  package:
+    needs: verify
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [darwin-arm64, darwin-x64, linux-x64, linux-arm64, win32-x64]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run package -- ${{ matrix.target }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: estate-exchange-${{ matrix.target }}
+          path: |
+            release/*.zip
+            release/*.sha256
+          retention-days: 14
+permissions:
+  contents: read
